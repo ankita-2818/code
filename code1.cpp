@@ -17,12 +17,12 @@ int main()
         int lp = strlen(p);
         int lh = strlen(hay);
 
-        int p_abc[26] = {0}; // stores the frequency of each character in needle.
+        int p_abc[26] = {0}; 
         int f = 0;
         for(int i=0;i<lp;i++)
             p_abc[p[i]-'a']++;
 
-        int checker_abc[26] = {0}; // stores frequency of each character in haystack
+        int checker_abc[26] = {0}; 
 
         for(int i=0;i<lp;i++)
         {
